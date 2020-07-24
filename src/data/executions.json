@@ -1,0 +1,378 @@
+        "items": [
+            {
+                "id": "1",
+                "date": "2020-07-15T16:39:32,0440Z",
+                "duration": "492",
+                "startdate": "2020-07-15T16:39:31,0948Z",
+                "primarykey": "1",
+                "identifier": "Mongodb 1",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "2",
+                "date": "2020-07-15T16:39:51,0302Z",
+                "duration": "107",
+                "startdate": "2020-07-15T16:39:51,0195Z",
+                "primarykey": "2",
+                "identifier": "Mongodb 2",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "3",
+                "date": "2020-07-15T16:40:30,0315Z",
+                "duration": "205",
+                "startdate": "2020-07-15T16:40:30,0110Z",
+                "primarykey": "3",
+                "identifier": "Mongodb 3",
+                "project_name": "Mongodb",
+                "status": "OK"
+            },
+            {
+                "id": "4",
+                "date": "2020-07-15T16:46:25,0991Z",
+                "duration": "115",
+                "startdate": "2020-07-15T16:46:25,0876Z",
+                "primarykey": "4",
+                "identifier": "Mongodb 4",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "5",
+                "date": "2020-07-15T16:49:58,0735Z",
+                "duration": "129",
+                "startdate": "2020-07-15T16:49:58,0606Z",
+                "primarykey": "5",
+                "identifier": "Mongodb 5",
+                "project_name": "Mongodb",
+                "status": "OK"
+            },
+            {
+                "id": "6",
+                "date": "2020-07-15T16:53:17,0794Z",
+                "duration": "214",
+                "startdate": "2020-07-15T16:53:17,0580Z",
+                "primarykey": "6",
+                "identifier": "Mongodb 6",
+                "project_name": "Mongodb",
+                "status": "OK"
+            },
+            {
+                "id": "7",
+                "date": "2020-07-15T16:54:30,0756Z",
+                "duration": "105",
+                "startdate": "2020-07-15T16:54:30,0651Z",
+                "primarykey": "7",
+                "identifier": "Mongodb 7",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "8",
+                "date": "2020-07-15T16:54:58,0995Z",
+                "duration": "136",
+                "startdate": "2020-07-15T16:54:58,0860Z",
+                "primarykey": "8",
+                "identifier": "Mongodb 8",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "9",
+                "date": "2020-07-15T16:55:41,0637Z",
+                "duration": "84",
+                "startdate": "2020-07-15T16:55:41,0553Z",
+                "primarykey": "9",
+                "identifier": "Mongodb 9",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "10",
+                "date": "2020-07-15T16:58:17,0701Z",
+                "duration": "96",
+                "startdate": "2020-07-15T16:58:17,0605Z",
+                "primarykey": "10",
+                "identifier": "Mongodb 10",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "11",
+                "date": "2020-07-15T16:59:29,0979Z",
+                "duration": "67",
+                "startdate": "2020-07-15T16:59:29,0912Z",
+                "primarykey": "11",
+                "identifier": "Mongodb 11",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "33",
+                "date": "2020-07-15T17:02:12,0324Z",
+                "duration": "112278",
+                "startdate": "2020-07-15T17:00:20,0047Z",
+                "primarykey": "33",
+                "identifier": "Mongodb 12",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "34",
+                "date": "2020-07-16T06:59:39,0922Z",
+                "duration": "190842",
+                "startdate": "2020-07-16T06:56:29,0081Z",
+                "primarykey": "34",
+                "identifier": "Mongodb 13",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "65",
+                "date": "2020-07-17T15:04:44,0733Z",
+                "duration": "132",
+                "startdate": "2020-07-17T15:04:44,0603Z",
+                "primarykey": "65",
+                "identifier": "Mongodb 14",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "97",
+                "date": "2020-07-20T07:58:25,0311Z",
+                "duration": "125",
+                "startdate": "2020-07-20T07:58:25,0186Z",
+                "primarykey": "97",
+                "identifier": "Mongodb 15",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "129",
+                "date": "2020-07-20T08:57:14,0027Z",
+                "duration": "303800",
+                "startdate": "2020-07-20T08:52:10,0227Z",
+                "primarykey": "129",
+                "identifier": "Mongodb 16",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "130",
+                "date": "2020-07-20T09:04:54,0754Z",
+                "duration": "397196",
+                "startdate": "2020-07-20T08:58:17,0557Z",
+                "primarykey": "130",
+                "identifier": "Mongodb 17",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "131",
+                "date": "2020-07-20T09:38:22,0003Z",
+                "duration": "20916",
+                "startdate": "2020-07-20T09:38:01,0087Z",
+                "primarykey": "131",
+                "identifier": "Mongodb 18",
+                "project_name": "Mongodb",
+                "status": "OK"
+            },
+            {
+                "id": "161",
+                "date": "2020-07-20T11:47:18,0808Z",
+                "startdate": "2020-07-20T11:47:18,0808Z",
+                "primarykey": "161",
+                "identifier": "Mongodb 19",
+                "project_name": "Mongodb",
+                "status": "Running anonymization..."
+            },
+            {
+                "id": "193",
+                "date": "2020-07-20T11:56:37,0987Z",
+                "startdate": "2020-07-20T11:56:37,0987Z",
+                "primarykey": "193",
+                "identifier": "Mongodb 20",
+                "project_name": "Mongodb",
+                "status": "Running anonymization..."
+            },
+            {
+                "id": "225",
+                "date": "2020-07-20T12:08:55,0592Z",
+                "startdate": "2020-07-20T12:08:55,0592Z",
+                "primarykey": "225",
+                "identifier": "Mongodb 21",
+                "project_name": "Mongodb",
+                "status": "Running anonymization..."
+            },
+            {
+                "id": "257",
+                "date": "2020-07-20T12:22:44,0237Z",
+                "duration": "28438",
+                "startdate": "2020-07-20T12:22:15,0800Z",
+                "primarykey": "257",
+                "identifier": "Mongodb 22",
+                "project_name": "Mongodb",
+                "status": "OK"
+            },
+            {
+                "id": "258",
+                "date": "2020-07-20T12:24:25,0834Z",
+                "startdate": "2020-07-20T12:24:25,0834Z",
+                "primarykey": "258",
+                "identifier": "Mongodb 23",
+                "project_name": "Mongodb",
+                "status": "Running anonymization..."
+            },
+            {
+                "id": "289",
+                "date": "2020-07-20T12:38:41,0926Z",
+                "duration": "17955",
+                "startdate": "2020-07-20T12:38:23,0972Z",
+                "primarykey": "289",
+                "identifier": "Mongodb 24",
+                "project_name": "Mongodb",
+                "status": "OK"
+            },
+            {
+                "id": "290",
+                "date": "2020-07-20T13:36:17,0872Z",
+                "duration": "135",
+                "startdate": "2020-07-20T13:36:17,0737Z",
+                "primarykey": "290",
+                "identifier": "Mongodb 25",
+                "project_name": "Mongodb",
+                "status": "ERROR"
+            },
+            {
+                "id": "291",
+                "date": "2020-07-20T13:36:48,0730Z",
+                "duration": "134",
+                "startdate": "2020-07-20T13:36:48,0596Z",
+                "primarykey": "291",
+                "identifier": "Mongodb 26",
+                "project_name": "Mongodb",
+                "status": "OK"
+            },
+            {
+                "id": "321",
+                "date": "2020-07-21T12:42:04,0078Z",
+                "duration": "243",
+                "startdate": "2020-07-21T12:42:03,0835Z",
+                "primarykey": "321",
+                "identifier": "Mongodb 27",
+                "project_name": "Mongodb",
+                "status": "OK"
+            },
+            {
+                "id": "322",
+                "date": "2020-07-21T12:55:07,0764Z",
+                "duration": "128",
+                "startdate": "2020-07-21T12:55:07,0636Z",
+                "primarykey": "322",
+                "identifier": "Mongodb 28",
+                "project_name": "Mongodb",
+                "status": "OK"
+            },
+            {
+                "id": "353",
+                "date": "2020-07-22T08:35:33,0865Z",
+                "duration": "51824",
+                "startdate": "2020-07-22T08:34:42,0040Z",
+                "primarykey": "353",
+                "identifier": "Test-Date-DB2 1",
+                "project_name": "Test-Date-DB2",
+                "status": "ERROR"
+            },
+            {
+                "id": "385",
+                "date": "2020-07-22T08:53:49,0170Z",
+                "duration": "46880",
+                "startdate": "2020-07-22T08:53:02,0291Z",
+                "primarykey": "385",
+                "identifier": "Test-Date-DB2 2",
+                "project_name": "Test-Date-DB2",
+                "status": "ERROR"
+            },
+            {
+                "id": "386",
+                "date": "2020-07-22T08:59:38,0159Z",
+                "duration": "120854",
+                "startdate": "2020-07-22T08:57:37,0305Z",
+                "primarykey": "386",
+                "identifier": "Test-Date-DB2 3",
+                "project_name": "Test-Date-DB2",
+                "status": "ERROR"
+            },
+            {
+                "id": "387",
+                "date": "2020-07-22T09:07:47,0997Z",
+                "duration": "480960",
+                "startdate": "2020-07-22T08:59:47,0037Z",
+                "primarykey": "387",
+                "identifier": "Test-Date-DB2 4",
+                "project_name": "Test-Date-DB2",
+                "status": "ERROR"
+            },
+            {
+                "id": "388",
+                "date": "2020-07-22T09:10:36,0111Z",
+                "duration": "29088",
+                "startdate": "2020-07-22T09:10:07,0023Z",
+                "primarykey": "388",
+                "identifier": "Test-Date-DB2 5",
+                "project_name": "Test-Date-DB2",
+                "status": "OK"
+            },
+            {
+                "id": "389",
+                "date": "2020-07-22T09:11:35,0754Z",
+                "duration": "25042",
+                "startdate": "2020-07-22T09:11:10,0712Z",
+                "primarykey": "389",
+                "identifier": "Test-Date-DB2 6",
+                "project_name": "Test-Date-DB2",
+                "status": "ERROR"
+            },
+            {
+                "id": "390",
+                "date": "2020-07-22T09:12:09,0292Z",
+                "duration": "7440",
+                "startdate": "2020-07-22T09:12:01,0852Z",
+                "primarykey": "390",
+                "identifier": "Test-Date-DB2 7",
+                "project_name": "Test-Date-DB2",
+                "status": "OK"
+            },
+            {
+                "id": "417",
+                "date": "2020-07-23T09:40:22,0945Z",
+                "duration": "34120",
+                "startdate": "2020-07-23T09:39:48,0825Z",
+                "primarykey": "417",
+                "identifier": "Nss 1",
+                "project_name": "Nss",
+                "status": "OK"
+            },
+            {
+                "id": "418",
+                "date": "2020-07-23T09:43:01,0471Z",
+                "duration": "107608",
+                "startdate": "2020-07-23T09:41:13,0864Z",
+                "primarykey": "418",
+                "identifier": "Nss 2",
+                "project_name": "Nss",
+                "status": "OK"
+            },
+            {
+                "id": "419",
+                "date": "2020-07-23T09:46:00,0963Z",
+                "duration": "89268",
+                "startdate": "2020-07-23T09:44:31,0694Z",
+                "primarykey": "419",
+                "identifier": "Nss 3",
+                "project_name": "Nss",
+                "status": "OK"
+            }
+        ]

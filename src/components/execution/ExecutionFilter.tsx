@@ -1,8 +1,8 @@
 import React from 'react';
 import {useRecoilState} from 'recoil';
-import {filter} from "../../recoil/manga";
+import {filter} from "../../recoil/execution";
 
-const MangaFilter = () => {
+const ExecutionFilter = () => {
     const [filterStr, setFilter] = useRecoilState(filter);
 
     return <div>
@@ -11,4 +11,4 @@ const MangaFilter = () => {
 }
 
 
-export default MangaFilter;
+export default ExecutionFilter;
