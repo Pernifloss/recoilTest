@@ -1,38 +1,77 @@
-import React from 'react';
-import {useRecoilState} from 'recoil';
-import {getFilteredExecution, executionAtom} from "../../recoil/execution";
-import {IExecution} from "../../interfaces/execution";
+import React from "react";
+import { useRecoilState } from "recoil";
+import {
+  getFilteredExecution,
+  executionAtom,
+  loadingAtom
+} from "../../recoil/execution";
+import { IExecution } from "../../interfaces/execution";
+import { Table, Tag, Spin } from "antd";
+import { selectedExecutionIDAtom } from "../../recoil/executionDetails";
 
 const ExecutionList = () => {
-    // @ts-ignore
-    const [allExecutions,]: [IExecution[]] = useRecoilState(executionAtom);
-    // @ts-ignore
-    const [filteredExecutions,]: [IExecution[]] = useRecoilState(getFilteredExecution);
+  const [{ data: allExecutions, loading }] = useRecoilState(executionAtom);
+  const [, setSelectedID] = useRecoilState(selectedExecutionIDAtom);
 
-    return <div className="App">
-        Executions :{allExecutions.length}
-        <table>
-            <thead>
-            <tr>
-                <th>Execution Instance</th>
-                <th>Project</th>
-                <th>Start date</th>
-                <th>Duration</th>
-                <th>Status</th>
-            </tr>
-            </thead>
-            <tbody>
-            {filteredExecutions.map((m: IExecution) => <tr key={m.id}>
-                <td>{m.attributes.identifier}</td>
-                <td>{m.attributes.project_name}</td>
-                <td>{m.attributes.date}</td>
-                <td>{m.attributes.duration}</td>
-                <td>{m.attributes.status}</td>
-            </tr>)}
-            </tbody>
-        </table>
-    </div>
-}
+  return (
+    <Table
+      loading={loading}
+      onRow={(record, rowIndex) => {
+        return {
+          onClick: () => {
+            record && setSelectedID(record.id);
+          }
+        };
+      }}
+      dataSource={allExecutions?.list?.items || []}
+      columns={[
+        {
+          key: "id",
+          title: "Id",
+          dataIndex: "id"
+        },
+        {
+          key: "date",
+          title: "Date",
+          dataIndex: "date"
+        },
+        {
+          key: "duration",
+          title: "Duration",
+          dataIndex: "duration"
+        },
+        {
+          key: "startdate",
+          title: "Startdate",
+          dataIndex: "startdate"
+        },
+        {
+          key: "primarykey",
+          title: "Primarykey",
+          dataIndex: "primarykey"
+        },
+        {
+          key: "identifier",
+          title: "Identifier",
+          dataIndex: "identifier"
+        },
+        {
+          key: "project_name",
+          title: "Project_name",
+          dataIndex: "project_name"
+        },
+        {
+          key: "status",
+          title: "Status",
+          dataIndex: "status",
 
+          render: status => (
+            <Tag color={status === "OK" ? "green" : "volcano"}>{status} </Tag>
+          )
+        }
+      ]}
+    />
+  );
+};
 
 export default ExecutionList;

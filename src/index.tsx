@@ -5,7 +5,6 @@ import * as serviceWorker from './serviceWorker';
 import {
     RecoilRoot,
 } from 'recoil';
-
 ReactDOM.render(
     <React.StrictMode>
         <RecoilRoot>
