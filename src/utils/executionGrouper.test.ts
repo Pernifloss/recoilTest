@@ -1,4 +1,4 @@
-import groupByFieldscontainer from "./executionGrouper";
+import groupByFieldsContainer from "./executionGrouper";
 
 const data = {
   list: {
@@ -43,11 +43,13 @@ const data = {
   }
 };
 it("should group by fieldsContainerId", () => {
-  expect(groupByFieldscontainer(data)).toEqual([
+  expect(groupByFieldsContainer(data)).toEqual([
     {
-      fieldscontainer: "129",
-      executions: [
+      title: "129",
+      key: "129",
+      children: [
         {
+          title: "365",
           id: "365",
           date: "2020-07-27T14:18:49,0632Z",
           anonymizefield: "131",
@@ -59,6 +61,7 @@ it("should group by fieldsContainerId", () => {
           status: "OK"
         },
         {
+          title: "366",
           id: "366",
           date: "2020-07-27T14:18:49,0633Z",
           anonymizefield: "133",
@@ -72,9 +75,11 @@ it("should group by fieldsContainerId", () => {
       ]
     },
     {
-      fieldscontainer: "105",
-      executions: [
+      title: "105",
+      key: "105",
+      children: [
         {
+          title: "367",
           id: "367",
           date: "2020-07-27T14:19:15,0266Z",
           anonymizefield: "134",

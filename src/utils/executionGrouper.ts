@@ -1,13 +1,13 @@
-const groupByFieldscontainer = (data: any) => {
+const groupByFieldsContainer = (data: any) => {
   return data.list.items.reduce((a: any, b: any) => {
-    const found = a.find((j: any) => j.fieldscontainer === b.fieldscontainer);
+    const found = a.find((j: any) => j.key === b.fieldscontainer);
     if (found) {
-      found.executions.push(b);
+      found.children.push({ title: b.id, ...b });
     } else {
       a.push({
-        executions: [b],
-
-        fieldscontainer: b.fieldscontainer
+        key: b.fieldscontainer,
+        children: [{ title: b.id, ...b }],
+        title: b.fieldscontainer
       });
     }
 
@@ -15,4 +15,4 @@ const groupByFieldscontainer = (data: any) => {
   }, []);
 };
 
-export default groupByFieldscontainer;
+export default groupByFieldsContainer;
